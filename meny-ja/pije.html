@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Perendesha</title>
+  <meta name="title" content="Restaurant Perendesha">
+  <link rel="shortcut icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/meny.css">
+  <link rel="preload" as="image" href="../assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="../assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="../assets/images/hero-slider-3.jpg">
+</head>
+<body id="top">
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Perendesha</p>
+  </div>
+
+<!-- Navi kryesor -->
+  <div class="topbar">
+    <div class="container">
+      <address class="topbar-item column-1">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+        <span class="span">
+          <a href="https://maps.app.goo.gl/CzJaxENUcTem23is9">206 Rruga Luan Haradinaj, Deçan, Ks 51000</a>
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2 column-1">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+        <span class="span">Çdo Ditë : 7:30 deri 23:30</span>
+      </div>
+
+      <a href="tel:+38348580700" class="topbar-item link column-2">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+        <span class="span">+38348580700</span>
+      </a>
+
+      <div class="separator"></div>
+      <a href="mailto:rezervo@perendesha.com" class="topbar-item link column-2">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+        <span class="span">rezervo@perendesha.com</span>
+      </a>
+    </div>
+  </div>
+  <!-- Navi kryesor -->
+
+
+<!-- Headeri -->
+  <header class="header" data-header>
+    <div class="container">
+      <a href="../index.html" class="logo">
+        <img src="../assets/images/Perendesha logo.png" width="200" height="70" alt="Grilli - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+        <a href="#" class="logo">
+          <img src="../assets/images/Perendesha logo.png" width="200" height="70" alt="Grilli - Home">
+        </a>
+
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="./mengjesi.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="span">Mëngjesi</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./meze.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="span">Meze</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#pije" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+              <span class="span">Pijet</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./desert.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="span">Desert</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./ourspeciality.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+              <span class="span">Specialitetet tona</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="../meny.html" class="navbar-link">
+              <div class="separator"></div>
+              <span class="span color">Meny-ja</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Na Vizitoni</p>
+          <address class="body-4">
+            <a href="https://maps.app.goo.gl/CzJaxENUcTem23is9">206 Rruga Luan Haradinaj, <br> Deçan, Ks 51000</a>
+          </address>
+          <p class="body-4 navbar-text">Hapur nga ora: 7:30 në Mëngjes deri 23:30 në Mbrëmje</p>
+          <a href="mailto:rezervo@perendesha.com" class="body-4 sidebar-link">rezervo@perendesha.com</a>
+          <div class="separator"></div>
+          <p class="contact-label">Na Kontakto</p>
+          <a href="tel:+38348580700" class="body-1 contact-number hover-underline">
+            +38348580700
+          </a>
+        </div>
+      </nav>
+
+      <!-- <a href="../index.html" class="btn btn-secondary">
+        <span class="text text-1">Faqja kryesore</span>
+        <span class="text text-2" aria-hidden="true">Faqja kryesore</span>
+      </a> -->
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+  </header>
+<!-- Headeri -->
+
+
+<!-- Menu links -->
+<section class="section service bg-black-10 text-center" aria-label="service">
+    <div class="container" id="allmenu">
+      <p class="section-subtitle body-1">pijet</p>
+      <h2 class="body-1 section-title" style="padding-bottom: 40px;">Ne i ofrojmë të gjitha llojet e pijeve</h2>
+      <ul class="grid-list">
+        <li>
+          <div class="service-card">
+            <a href="#" class="has-before hover:shine">
+              <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                <img src="../assets/images/service-1.jpg" width="285" height="336" loading="lazy" alt="Kafe"
+                  class="img-cover">
+              </figure>
+            </a>
+            <div class="card-content">
+              <h3 class="title-4 card-title">
+                <a href="../pijet/kafe.html">Kafe</a>
+              </h3>
+              <a href="../pijet/kafe.html" class="btn-text hover-underline label-2">Shiko Menynë</a>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="service-card">
+            <a href="#" class="has-before hover:shine">
+              <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                <img src="../assets/images/service-2.jpg" width="285" height="336" loading="lazy" alt="Lëngje"
+                  class="img-cover">
+              </figure>
+            </a>
+            <div class="card-content">
+              <h3 class="title-4 card-title">
+                <a href="../pijet/lengje.html">Lëngje</a>
+              </h3>
+              <a href="../pijet/lengje.html" class="btn-text hover-underline label-2">Shiko Menynë</a>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="service-card">
+            <a href="#" class="has-before hover:shine">
+              <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                <img src="../assets/images/service-3.jpg" width="285" height="336" loading="lazy" alt="Alkohol"
+                  class="img-cover">
+              </figure>
+            </a>
+            <div class="card-content">
+              <h3 class="title-4 card-title">
+                <a href="../pijet/alkoholike.html">Alkohol</a>
+              </h3>
+              <a href="../pijet/alkoholike.html" class="btn-text hover-underline label-2">Shiko Menynë</a>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="service-card">
+            <a href="#" class="has-before hover:shine">
+              <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                <img src="../assets/images/service-1.jpg" width="285" height="336" loading="lazy" alt="Coctailmealcohol"
+                  class="img-cover">
+              </figure>
+            </a>
+            <div class="card-content">
+              <h3 class="title-4 card-title">
+                <a href="../pijet/coctailmealc.html">Coctail me alcohol</a>
+              </h3>
+              <a href="../pijet/coctailmealc.html" class="btn-text hover-underline label-2">Shiko Menynë</a>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="service-card livrit">
+            <a href="#" class="has-before hover:shine">
+              <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                <img src="../assets/images/service-2.jpg" width="285" height="336" loading="lazy" alt="Coctailpaalkohol"
+                  class="img-cover">
+              </figure>
+            </a>
+            <div class="card-content">
+              <h3 class="title-4 card-title">
+                <a href="../pijet/coctailnoalc.html">Coctail pa alkohol</a>
+              </h3>
+              <a href="../pijet/coctailnoalc.html" class="btn-text hover-underline label-2">Shiko Menynë</a>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="service-card">
+            <a href="#" class="has-before hover:shine">
+              <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                <img src="../assets/images/service-1.jpg" width="285" height="336" loading="lazy" alt="FreshJuice"
+                  class="img-cover">
+              </figure>
+            </a>
+            <div class="card-content">
+              <h3 class="title-4 card-title">
+                <a href="../pijet/freshjuice.html">Fresh juice</a>
+              </h3>
+              <a href="../pijet/freshjuice.html" class="btn-text hover-underline label-2">Shiko Menynë</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <img src="../assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+        class="shape shape-1 move-anim">
+      <img src="../assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+        class="shape shape-2 move-anim">
+    </div>
+  </section>
+  <!-- Menu links -->
+
+<!-- Footeri -->
+<footer class="footer section has-bg-image text-center"
+style="background-image: url('../assets/images/footer-bg.jpg')">
+<div class="container">
+  <div class="footer-top grid-list">
+    <div class="footer-brand has-before has-after">
+      <a href="#" class="logo">
+        <img src="../assets/images/Perendesha logo.png" width="200" height="70" loading="lazy" alt="grilli home">
+      </a>
+      <address class="body-4">
+        <a href="https://maps.app.goo.gl/CzJaxENUcTem23is9">206 Rruga Luan Haradinaj, Deçan, Ks 51000</a>
+      </address>
+      <a href="mailto:booking@grilli.com" class="body-4 contact-link">rezervo@perendesha.com</a>
+      <a href="tel:+38348580700" class="body-4 contact-link">Kërkesë për rezervim : +38348580700</a>
+      <p class="body-4">
+        Hapur nga ora: 07:30 në Mëngjes - 23:30 në Mbrëmje
+      </p>
+      <div class="wrapper">
+        <div class="separator"></div>
+        <div class="separator"></div>
+        <div class="separator"></div>
+      </div>
+    </div>
+    <ul class="footer-list">
+      <li>
+        <a href="../index.html" class="label-2 footer-link hover-underline">Hyrja</a>
+      </li>
+
+      <li>
+        <a href="/meny.html" class="label-2 footer-link hover-underline">Meny-ja</a>
+      </li>
+
+      <li>
+        <a href="../index.html" class="label-2 footer-link hover-underline">Rreth nesh</a>
+      </li>
+
+      <li>
+        <a href="../index.html" class="label-2 footer-link hover-underline">Kuzhinierët tanë</a>
+      </li>
+
+      <li>
+        <a href="tel:+38349437883" class="label-2 footer-link hover-underline">Kontakto</a>
+      </li>
+    </ul>
+
+    <ul class="footer-list">
+      <li>
+        <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+      </li>
+
+      <li>
+        <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
+      </li>
+
+      <li>
+        <a href="#" class="label-2 footer-link hover-underline">Tiktok</a>
+      </li>
+
+      <li>
+        <a href="https://maps.app.goo.gl/jC9hnEfueLiAAxCj6" class="label-2 footer-link hover-underline">Google Map</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="footer-bottom">
+    <p class="copyright">
+      &copy; 2024 TeBo. All Rights Reserved | Krijuar nga Ferizi Dev
+    </p>
+  </div>
+</div>
+</footer>
+<!-- Footeri -->
+
+
+
+<!-- Shko lart shigjeta -->
+<a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+<ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+</a>
+<!-- Shko lart shigjeta -->
+
+
+<script src="../assets/js/script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
