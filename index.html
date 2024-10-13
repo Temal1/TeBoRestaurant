@@ -29,7 +29,7 @@
           <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
         </div>
         <span class="span">
-          <a href="https://maps.app.goo.gl/CzJaxENUcTem23is9">Rruga Luan Haradinaj, Deçan, Ks 51000</a>
+          <a href="https://maps.app.goo.gl/jC9hnEfueLiAAxCj6">Rruga Luan Haradinaj, Deçan, Ks 51000</a>
         </span>
       </address>
 
@@ -65,7 +65,7 @@
   <header class="header" data-header>
     <div class="container">
       <a href="#" class="logo">
-        <img src="./assets/images/TeBoLogoRestaurant.png" width="200" height="70" alt="TeBo">
+        <img src="./assets/images/TeBoLogoRestaurant.png" width="250" alt="TeBo">
       </a>
 
       <nav class="navbar" data-navbar>
@@ -73,7 +73,7 @@
           <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
         </button>
         <a href="#" class="logo">
-          <img src="./assets/images/TeBoLogoRestaurant.png" width="200" height="70" alt="T">
+          <img src="./assets/images/TeBoLogoRestaurant.png" width="250" alt="TeBo">
         </a>
 
         <ul class="navbar-list">
@@ -561,8 +561,8 @@
         style="background-image: url('./assets/images/testimonial-bg.jpg')" aria-label="testimonials">
         <div class="container">
           <div class="quote">”</div>
-          <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-          <div class="elfsight-app-39473fa6-42ed-4e13-b971-8d134e367559" data-elfsight-app-lazy></div>
+          <script src="https://static.elfsight.com/platform/platform.js" async></script>
+          <div class="elfsight-app-5a854a10-8537-4ba3-b5fc-f4441027b375" data-elfsight-app-lazy></div>
 
           <div class="wrapper">
             <div class="separator"></div>
@@ -582,62 +582,63 @@
       <section class="reservation" id="rezervim">
         <div class="container">
           <div class="form reservation-form bg-black-10">
-            <form action="" class="form-left">
+            <form action="https://api.web3forms.com/submit" class="form-left" method="POST">
               <h2 class="headline-1 text-center">Rezervimi Online</h2>
               <p class="form-text text-center">
                 Kërkesa për rezervim <a href="tel:+38349437883" class="link">+38349437883</a>
                 ose plotësoni formularin e porosisë
               </p>
+              <input type="hidden" name="access_key" value="f35e6b23-5a7f-4635-9f5c-65f32e2b2d94">
               <div class="input-wrapper">
-                <input type="text" name="name" placeholder="Emri juaj" autocomplete="off" class="input-field">
-                <input type="tel" name="phone" placeholder="Numri telefonit" autocomplete="off" class="input-field">
+                <input type="text" name="Emri" placeholder="Emri juaj" autocomplete="off" class="input-field" required>
+                <input type="tel" name="Numri Tel." placeholder="Numri telefonit" autocomplete="off" class="input-field" required>
               </div>
               <div class="input-wrapper">
                 <div class="icon-wrapper">
                   <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
-                  <select name="person" class="input-field">
+                  <select name="Personat" class="input-field" required>
                     <option value="1-person">1 Person</option>
-                    <option value="2-person">2 Persona</option>
-                    <option value="3-person">3 Persona</option>
-                    <option value="4-person">4 Persona</option>
-                    <option value="5-person">5 Persona</option>
-                    <option value="6-person">6 Persona</option>
-                    <option value="7-person">7 Persona</option>
-                    <option value="7-person">8 Persona</option>
-                    <option value="7-person">9 Persona</option>
-                    <option value="7-person">10 Persona</option>
-                    <option value="7-person">11Persona</option>
-                    <option value="7-person">12 Persona</option>
-                    <option value="7-person">13 Persona</option>
-                    <option value="7-person">14 Persona</option>
-                    <option value="7-person">15 Persona</option>
+                    <option value="2-persona">2 Persona</option>
+                    <option value="3-persona">3 Persona</option>
+                    <option value="4-persona">4 Persona</option>
+                    <option value="5-persona">5 Persona</option>
+                    <option value="6-persona">6 Persona</option>
+                    <option value="7-persona">7 Persona</option>
+                    <option value="8-persona">8 Persona</option>
+                    <option value="9-persona">9 Persona</option>
+                    <option value="10-persona">10 Persona</option>
+                    <option value="11-persona">11 Persona</option>
+                    <option value="12-persona">12 Persona</option>
+                    <option value="13-persona">13 Persona</option>
+                    <option value="14-persona">14 Persona</option>
+                    <option value="15-persona">15 Persona</option>
                   </select>
 
                   <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
                 </div>
                 <div class="icon-wrapper">
                   <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
-                  <input type="date" name="reservation-date" class="input-field">
+                  <input type="date" name="DataRezervimit" class="input-field" required>
                   <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
                 </div>
                 <div class="icon-wrapper">
                   <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-                  <select name="person" class="input-field">
-                    <option value="08:00am">08 : 00 Mëngjes</option>
-                    <option value="09:00am">09 : 00 Mëngjes</option>
-                    <option value="010:00am">10 : 00 Mëngjes</option>
-                    <option value="011:00am">11 : 00 Mëngjes</option>
-                    <option value="012:00am">12 : 00 Mëngjes</option>
-                    <option value="01:00pm">13 : 00 Mbrëmje</option>
-                    <option value="02:00pm">14 : 00 Mbrëmje</option>
-                    <option value="03:00pm">15 : 00 Mbrëmje</option>
-                    <option value="04:00pm">16 : 00 Mbrëmje</option>
-                    <option value="05:00pm">17 : 00 Mbrëmje</option>
-                    <option value="06:00pm">18 : 00 Mbrëmje</option>
-                    <option value="07:00pm">19 : 00 Mbrëmje</option>
-                    <option value="08:00pm">20 : 00 Mbrëmje</option>
-                    <option value="09:00pm">21 : 00 Mbrëmje</option>
-                    <option value="10:00pm">22 : 00 Mbrëmje</option>
+                  <select name="Koha" class="input-field" required>
+                    <option value="08:00am">08 : 00 në Mëngjes</option>
+                    <option value="09:00am">09 : 00 në Mëngjes</option>
+                    <option value="010:00am">10 : 00 në Mëngjes</option>
+                    <option value="011:00am">11 : 00 në Mëngjes</option>
+                    <option value="012:00am">12 : 00 në Mëngjes</option>
+                    <option value="13:00pm">13 : 00 në Mbrëmje</option>
+                    <option value="14:00pm">14 : 00 në Mbrëmje</option>
+                    <option value="15:00pm">15 : 00 në Mbrëmje</option>
+                    <option value="16:00pm">16 : 00 në Mbrëmje</option>
+                    <option value="17:00pm">17 : 00 në Mbrëmje</option>
+                    <option value="18:00pm">18 : 00 në Mbrëmje</option>
+                    <option value="19:00pm">19 : 00 në Mbrëmje</option>
+                    <option value="20:00pm">20 : 00 në Mbrëmje</option>
+                    <option value="21:00pm">21 : 00 në Mbrëmje</option>
+                    <option value="22:00pm">22 : 00 në Mbrëmje</option>
                   </select>
                   <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
                 </div>
@@ -808,8 +809,8 @@
     <div class="container">
       <div class="footer-top grid-list">
         <div class="footer-brand has-before has-after">
-          <a href="#" class="logo">
-            <img src="./assets/images/TeBoLogoRestaurant.png" width="200" height="70" loading="lazy" alt="grilli home">
+          <a href="/index.html" class="logo">
+            <img src="./assets/images/TeBoLogoRestaurant.png" width="250" loading="lazy" alt="TeBo">
           </a>
           <address class="body-4">
             <a href="https://maps.app.goo.gl/jC9hnEfueLiAAxCj6">Rruga Luan Haradinaj, Deçan, Ks 51000</a>
@@ -887,19 +888,6 @@
   <script src="./assets/js/script.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  <SCRIPT language=JavaScript>
-
-    <!-- http://www.spacegun.co.uk -->
-    
-    var message = "function disabled";
-    
-    function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
-    
-    if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
-    
-    document.onmousedown = rtclickcheck;
-    
-    </SCRIPT>
 </body>
 
 </html>
