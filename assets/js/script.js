@@ -9,7 +9,6 @@ window.addEventListener("load", function () {
 
 
 
-/* add event listener on multiple elements */
 
 const addEventOnElements = function (elements, eventType, callback) {
   for (let i = 0, len = elements.length; i < len; i++) {
@@ -34,7 +33,7 @@ addEventOnElements(navTogglers, "click", toggleNavbar);
 
 
 
-/* Headeri dhe kthehy lart butoni */
+/* Headeri dhe kthehu lart butoni */
 const header = document.querySelector("[data-header]");
 const backTopBtn = document.querySelector("[data-back-top-btn]");
 
@@ -123,8 +122,6 @@ addEventOnElements([heroSliderNextBtn, heroSliderPrevBtn], "mouseout", autoSlide
 window.addEventListener("load", autoSlide);
 
 
-
-/* hover me maus dhe livrit */
 
 const parallaxItems = document.querySelectorAll("[data-parallax-item]");
 
